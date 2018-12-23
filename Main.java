@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		ArrayList<Integer> x = new ArrayList<Integer>();
 		ArrayList<Integer> y = new ArrayList<Integer>();
-		String path = "src\\input00.txt";
+		String path = "src\\input.txt";
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
 			String str;
 			while((str = br.readLine()) != null) {
